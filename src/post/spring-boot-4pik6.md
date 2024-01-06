@@ -79,7 +79,7 @@ SpringBoot项目打包成jar很简单，也是SpringBoot的常用打包格式；
 
 1）先new 一个`Spring Starter Project`​
 
-​​![image](assets/image-20240105221039-lj9k2zt.png)​​
+​​![image](https://raw.githubusercontent.com/Dhb-150/Personal-access/main/assets202401061041348.png)​​
 
 这里注意packaging默认为jar,不用修改.
 
@@ -135,17 +135,17 @@ SpringBoot项目打包成jar很简单，也是SpringBoot的常用打包格式；
 
 在Terminal窗口，使用 `mvn clean package`​ 命令打包：
 
-​​​![image](assets/image-20240105221023-p3vgd0g.png)​​​
+​​​![image](https://raw.githubusercontent.com/Dhb-150/Personal-access/main/assets202401061041400.png)​​​
 
 然后在target目录下就能看到打包好的jar包了
 
-​​![image](assets/image-20240105221017-ahkv3mr.png)​​
+​​![image](https://raw.githubusercontent.com/Dhb-150/Personal-access/main/assets202401061041775.png)​​
 
 #### [二、打包成war包形式](https://blog.csdn.net/github_38592071/article/details/130120473)
 
 1）可以在刚才创建的项目上做改动,首先打包成war需要一个`ServletInitializer`​类，这个类的位置需要和启动类在同一个文件下
 
-​​![image](assets/image-20240105221009-x4svcs3.png)​​
+​​![image](https://raw.githubusercontent.com/Dhb-150/Personal-access/main/assets202401061041098.png)​​
 
 > 如果一开始选择war包形式，会自动创建此类
 
@@ -239,7 +239,7 @@ SpringBoot项目打包成jar很简单，也是SpringBoot的常用打包格式；
 
 如下：
 
-​​![image](assets/image-20240105220958-mey8aah.png)​​
+​​![image](https://raw.githubusercontent.com/Dhb-150/Personal-access/main/assets202401061041363.png)​​
 
 打包成功后，就可以将war包放在tomcat下的webapps下，然后运行tomcat，启动项目了；
 
@@ -249,7 +249,7 @@ SpringBoot项目打包成jar很简单，也是SpringBoot的常用打包格式；
 
 当选择war为打包方式创建项目时，`ServletInitializer`​是默认直接创建的
 
-​​![image](assets/image-20240105220949-3fm98wh.png)​​
+​​![image](https://raw.githubusercontent.com/Dhb-150/Personal-access/main/assets202401061041687.png)​​
 
 此时，pom文件如下
 
@@ -307,7 +307,7 @@ SpringBoot项目打包成jar很简单，也是SpringBoot的常用打包格式；
 
 直接`mvn clean package`​就能打包成功
 
-​​​![image](assets/image-20240105220928-gl7uqee.png)​​​
+​​​![image](https://raw.githubusercontent.com/Dhb-150/Personal-access/main/assets202401061041693.png)​​​
 
 ‍
 
